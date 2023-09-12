@@ -41,10 +41,10 @@ export default function Index() {
       <Head>
         <title>RobinTT.me</title>
         <meta name="description" content="RobinTT's personal site" />
-        <meta property="og:image" content="https://r2.e-z.host/8a13052f-8c12-4034-b99f-0155cc616583/28uf4vk6.ico" />
+        <meta property="og:image" content="https://r2.e-z.host/8a13052f-8c12-4034-b99f-0155cc616583/stqytx3m.png" />
         <meta property='theme-color' content='#ea580c' />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="https://r2.e-z.host/8a13052f-8c12-4034-b99f-0155cc616583/28uf4vk6.ico" />
+        <link rel="icon" href="https://r2.e-z.host/8a13052f-8c12-4034-b99f-0155cc616583/stqytx3m.png" />
       </Head>
       <Navbar clickScroll={handleClickScroll} clickScroll2={handleClickScroll2} pageLoad={pageLoad} />
       <main className='relative h-screen'>
