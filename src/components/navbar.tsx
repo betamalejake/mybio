@@ -53,14 +53,14 @@ export default function Navbar({
                 >
                   {" "}
                   <Link href="https://aiden.gg">
-                  Based on Aiden's bio page
+                  Based on Aiden.gg
                   </Link>
                 </button>
               ) : (
                 <p className="text-white font-kanit text-lg p-2 hover:bg-slate-800 duration-300 rounded-md">
   {" "}
   <Link href="https://aiden.gg">
-  Made by RobinTT based on <span className="blue-link">Aiden's bio page</span>
+  Made by RobinTT based on <span className="blue-link">Aiden.gg</span>
   </Link>
 </p>
               )}
