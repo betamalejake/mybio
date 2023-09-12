@@ -16,7 +16,7 @@ export default function About({ refID, inView }: { refID: any; inView: boolean }
                                 <Typewriter
                                     options={{
                                         delay: 30,
-                                        strings: ["I am a bored guy on sunday"],
+                                        strings: ["I want to learn how to code in a veriety of languages and frameworks, and one day I hope to make something people will like."],
                                         loop: false,
                                         autoStart: true,
                                         deleteSpeed: 604800000,
@@ -26,7 +26,7 @@ export default function About({ refID, inView }: { refID: any; inView: boolean }
                         </p>
                     </div>
                     <h2 className={`text-white font-semibold sm:text-2xl text-lg xl:px-0 px-8 font-kanit`}>
-                         These are the languages, frameworks and libraries I&apos;m learning currently.
+                         These are the languages, frameworks and libraries I&apos;m learning currently/ will learn in the future (more to come).
                     </h2>
                     <ul className='flex flex-row flex-wrap justify-start gap-2 mt-2 rounded-md w-fit xl:px-0 px-8'>
                     <Techicon href='https://html.com/html5/' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg' delay={0.2} />
@@ -43,7 +43,7 @@ export default function About({ refID, inView }: { refID: any; inView: boolean }
                     <ul className='flex flex-row flex-wrap gap-2 mt-2 self-end rounded-md w-fit xl:px-0 px-8'>
                         <Techicon href='https://code.visualstudio.com/' src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg' delay={0.1} />
                         <Techicon href='https://www.mozilla.org/en-US/firefox/' src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/firefox/firefox-original.svg' delay={0.2} />
-                        <Techicon href='https://www.mozilla.org/en-US/firefox/' src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/windows8/windows8-original.svg' delay={0.3} />
+                        <Techicon href='hhttps://www.microsoft.com/en-us/windows/?r=1' src='https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/windows8/windows8-original.svg' delay={0.3} />
                         <Socialicon
                                 href='https://github.com/'
                                 svg={<svg xmlns="http://www.w3.org/2000/svg" className='m-auto mt-2.5 w-7 h-7 fill-white' viewBox="0 0 16 16">

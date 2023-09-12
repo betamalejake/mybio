@@ -5,8 +5,6 @@ import { useInView } from 'react-intersection-observer';
 import Navbar from '@/components/navbar';
 import Hero from '@/components/index/hero';
 import About from '@/components/index/about';
-/* import Projects from '@/components/index/projects'; */
-
 
 export default function Index() {
   const [pageLoad, setPageLoad] = useState(false);
@@ -18,11 +16,11 @@ export default function Index() {
   });
 
   useEffect(() => {
-    setPageLoad(true)
+    setPageLoad(true);
     setTimeout(() => {
-      setTitleColor('text-orange-600')
-    }, 600)
-  }, [])
+      setTitleColor('text-orange-600');
+    }, 600);
+  }, []);
 
   const handleClickScroll = () => {
     const element = document.getElementById('about');
@@ -38,7 +36,6 @@ export default function Index() {
     }
   };
 
-
   return (
     <>
       <Head>
@@ -53,8 +50,7 @@ export default function Index() {
       <main className='relative h-screen'>
         <Hero pageLoad={pageLoad} titleColor={titleColor} />
         <About refID={ref} inView={inView} />
-        {/* <Projects /> */}
       </main>
     </>
-  )
+  );
 }
