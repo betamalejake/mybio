@@ -16,7 +16,7 @@ export default function About({ refID, inView }: { refID: any; inView: boolean }
                                 <Typewriter
                                     options={{
                                         delay: 30,
-                                        strings: ["I want to learn how to code in a veriety of languages and frameworks, and one day I hope to make something people will like."],
+                                        strings: ["I am passionately dedicated to acquiring proficiency in a multitude of programming languages and frameworks, driven by my ultimate goal of creating software that resonates with and benefits people. I firmly believe that the versatility offered by various languages and frameworks is the key to addressing diverse challenges and catering to the unique needs of users, motivating me to explore this ever-evolving landscape continually."],
                                         loop: false,
                                         autoStart: true,
                                         deleteSpeed: 604800000,
