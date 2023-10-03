@@ -1,9 +1,10 @@
 {
-  "name": "aidenggv3",
-  "version": "0.1.0",
+  "name": "RobinTT",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev -p 3070",
+    "nice": "next dev -p 6969",
     "build": "next build",
     "start": "next start -p 3070",
     "lint": "next lint"
