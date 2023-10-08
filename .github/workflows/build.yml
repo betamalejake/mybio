@@ -19,10 +19,13 @@ jobs:
           node-version: 14
 
       - name: Install dependencies
-        run: npm install
+        run: npm i
 
       - name: Build the project
         run: npm run build
+
+      - name: Fix the project
+        run: npm audit fix
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
