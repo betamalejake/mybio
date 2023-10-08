@@ -22,7 +22,7 @@ jobs:
         run: npm i
 
       - name: nextjs
-        run: npm run inext
+        run: npm install next@latest react@latest react-dom@latest
 
       - name: Build the project
         run: npm run build
